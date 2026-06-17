@@ -1,1 +1,1 @@
-# FreeCodeCamp_Curriculum
+# HackerRank
