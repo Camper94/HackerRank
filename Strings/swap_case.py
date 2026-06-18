@@ -39,11 +39,13 @@ hACKERrANK.COM PRESENTS "pYTHONIST 2".
 def swap_case(s):
     r=""
     for item in s:
-        if item.islower : r = r+item.upper()
-        elif item.isupper: r = r+item.lower()
+        if item.islower(): r = r + item.upper()
+        else : r = r + item.lower()   
     return r
 
-if __name__ == '__main__':
+'''if __name__ == '__main__':
     s = input()
     result = swap_case(s)
     print(result)
+'''
+print(swap_case('Python 2'))
